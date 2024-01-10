@@ -26,7 +26,7 @@ svc = Pipeline([
 
 3. Voting
 ```python
-pipeline = VotingClassifier(estimators=classifiers,
+model = VotingClassifier(estimators=classifiers,
                              voting='soft',
                              weights=[100, 3])
 ```
