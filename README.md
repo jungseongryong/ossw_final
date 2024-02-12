@@ -10,7 +10,7 @@
 - Accuracy : 0.9670
 - Rank : 1
 
-## Configuration instructions
+## Model
 1. KNN
 ```python
 knn = KNeighborsClassifier(n_neighbors=1)
@@ -32,8 +32,6 @@ model = VotingClassifier(estimators=classifiers,
 ```
 
 
-## Copyright and licensing information
-- MIT License
 
 ## Contact information
 - Name: Seongryong Jung
